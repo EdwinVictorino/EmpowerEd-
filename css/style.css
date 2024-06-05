@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#about p{
+    color: #747d8c;
+}
+
+#about ul li{
+    color: #2C3A47;
+}
+.container{
+    padding: 1% 12%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #44bd32;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #2C3A47;
+  }
+
+.navbar img{
+    width: 70px;
+    float: left;
+}
+
+
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.column ul li{
+    font-size: 12px;
+    padding: 2%;
+}
+
+h2{
+    color: #c23616;
+}
+
+#sdg4{
+    color: #d63031;
+    text-decoration: underline;
+}
+#sdg8{
+    color: #c44569;
+    text-decoration: underline;
+}
+#TheChallenge i{
+    color: #747d8c;
+    font-size: 50px;
+}
+
+#TakeAction i{
+    font-size: 150px;
+    padding: 20%;
+}
+#TakeAction p{
+    color: #2C3A47;
+}
+
+#TheLink{
+    margin-top: 100px;
+    color: #2C3A47;
+    padding: 1% 12%;
+    text-align: left;
+}
+
+.takeAction {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    color: #227093;
+}
+.navbar {
+    height: 50px;
+    background-color: #f1f2f6;
+    overflow: hidden;
+}
+.footer{
+    color: #747d8c;
+    padding: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    padding: 30px;
+}
+.btn a{
+    text-decoration: none;
+    color: #c44569;
+}
+
+.btn button{
+    background-color: #fffa65;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+
+}
+
+hr{
+    border: .2px solid #a4b0be;
+}
+.navbar .icon{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+   
+   .column{
+    width: 100%;
+   }
+   .takeAction{
+    width: 100%;
+   }
+
+   .navbar{
+    height: 60px;
+   }
+
+   .navbar a:not(:first-child) {display: none;}
+   .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navbar i{
+    font-size: 30px;
+  }
+  }
